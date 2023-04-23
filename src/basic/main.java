@@ -13,7 +13,7 @@ public class main {
         searchUtil util = new searchUtil();
         System.out.println(util.binarySearch(11));
 
-        util.bubble2(util.sortNums);
+        util.quickSort(util.sortNums);
         System.out.println(Arrays.toString(util.sortNums));
     }
 }
